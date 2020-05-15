@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  First Nmae: <input type="text" id="fname"><br>
+  Last Name: <input type="text" id="lname"><br>
+  <input type="button" id="btn" value="Save" onclick="save(this)">
+  <input type="button" value="Delete Selected" onclick="del(this)">
+  <table id="tbl" align="center" border="1" width="300">
+    <hr>
+    <tr>
+      <th><input type="checkbox" id="chAll" onclick="chAll(this)"></th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Oparation</th>
+    </tr>
+  </table>
+  <script src="function.js"></script>
+</body>
+</html>
